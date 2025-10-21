@@ -19,7 +19,7 @@ export default function SplashScreen(): ReactElement {
     const timeOutId = setTimeout(async () => {
       // navigate to the home screen
       navigation.replace('Home'); //ApplicationDrawer');
-    }, 3000);
+    }, 10000);
 
     return () => {
       clearTimeout(timeOutId);
