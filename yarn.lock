@@ -2456,6 +2456,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/native-stack@npm:^7.3.28":
+  version: 7.3.28
+  resolution: "@react-navigation/native-stack@npm:7.3.28"
+  dependencies:
+    "@react-navigation/elements": ^2.6.5
+    warn-once: ^0.1.1
+  peerDependencies:
+    "@react-navigation/native": ^7.1.18
+    react: ">= 18.2.0"
+    react-native: "*"
+    react-native-safe-area-context: ">= 4.0.0"
+    react-native-screens: ">= 4.0.0"
+  checksum: 7cefd3b10f531de8abacb77e5152727a320e5d68e41c721bb82bb8202184fe0850f17416dd1be2229bc513577f8dbcfd6f3c131f92ce7f3f62842c76995bfe6b
+  languageName: node
+  linkType: hard
+
 "@react-navigation/native@npm:^7.1.18":
   version: 7.1.18
   resolution: "@react-navigation/native@npm:7.1.18"
@@ -6993,6 +7009,7 @@ __metadata:
     "@react-native/typescript-config": 0.82.1
     "@react-navigation/drawer": ^7.5.10
     "@react-navigation/native": ^7.1.18
+    "@react-navigation/native-stack": ^7.3.28
     "@types/jest": ^29.5.13
     "@types/react": ^19.1.1
     "@types/react-test-renderer": ^19.1.0
@@ -9055,7 +9072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"warn-once@npm:^0.1.0":
+"warn-once@npm:^0.1.0, warn-once@npm:^0.1.1":
   version: 0.1.1
   resolution: "warn-once@npm:0.1.1"
   checksum: e6a5a1f5a8dba7744399743d3cfb571db4c3947897875d4962a7c5b1bf2195ab4518c838cb4cea652e71729f21bba2e98dc75686f5fccde0fabbd894e2ed0c0d
